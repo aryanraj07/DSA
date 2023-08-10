@@ -1,6 +1,7 @@
 package Hashing;
 
 import java.util.HashMap;
+import java.util.Set;
 
 public class _01_HashMap_Operations {
     public static void main(String[] args) {
@@ -19,7 +20,12 @@ public class _01_HashMap_Operations {
         System.out.println(hm);
         System.out.println(hm.remove("Indo"));
         System.out.println(hm.size());
-
+        Set<String> keys=hm.keySet();
+        System.out.println(keys);
+        for(String k:keys)
+        {
+            System.out.println("key="+k+" value "+hm.get(k));
+        }
 
 
     }
