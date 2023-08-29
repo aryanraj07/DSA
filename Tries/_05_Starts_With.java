@@ -52,5 +52,6 @@ public class _05_Starts_With {
         }
         System.out.println(startsWith(prefix1));
         System.out.println(startsWith(prefix2));
+
     }
 }
